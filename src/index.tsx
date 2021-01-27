@@ -1,10 +1,17 @@
 import * as React from 'react'
 import styles from './styles.module.css'
-
+import Sketchpad from './components/Sketchpad'
 interface Props {
-  text: string
+
 }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export class SvgWhiteBoard extends React.Component<Props> {
+
+  render() {
+    return (
+      <div className={styles.swb_container}>
+        <Sketchpad /> 
+      </div>
+    )
+  }
 }

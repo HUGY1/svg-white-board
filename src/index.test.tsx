@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { SvgWhiteBoard } from '.'
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(SvgWhiteBoard).toBeTruthy()
   })
 })
