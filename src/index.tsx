@@ -6,6 +6,9 @@ interface Props {
 }
 
 export class SvgWhiteBoard extends React.Component<Props> {
+  componentDidMount(){
+    
+  }
 
   render() {
     return (
